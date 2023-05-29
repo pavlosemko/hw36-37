@@ -42,7 +42,7 @@ function SuperMath() {
 }
 Object.assign(SuperMath.prototype, mathObj);
 
-p = new SuperMath();
+const p = new SuperMath();
 const result = p.check(obj);
 console.log(result);
 
@@ -73,6 +73,6 @@ function SuperMathTwo() {
 }
 Object.assign(SuperMathTwo.prototype, mathObj);
 
-p = new SuperMathTwo();
-const result2 = p.check(obj);
+const p2 = new SuperMathTwo();
+const result2 = p2.check(obj);
 console.log(result);
