@@ -1,5 +1,4 @@
-const a = 'a';
-const af = 'a';
+
 // Перший вариант
 const mathObj = {
     "+": (x, y) => x + y,
